@@ -1,0 +1,2 @@
+# SearchPersonAI
+Дипломная работа
