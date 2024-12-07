@@ -16,9 +16,18 @@
  - Данные взят за основу [dataLADD](https://www.kaggle.com/datasets/mersico/lacmus-drone-dataset-ladd-v40)
  - Доска трелло [ссылка](https://trello.com/b/URGVZf3f/%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC)
 
+---
+
 ### Текущие резульаты
  - 06.12.2024
- > ![Alt-текст](./AI/imgResult/результат_1.png)
+ > ![Alt-текст](./AI/Result/confusion_matrix_normalized.png)
+ > ![Alt-текст](./AI/Result/confusion_matrix.png)
+ > ![Alt-текст](./AI/Result/F1_curve.png)
+ > ![Alt-текст](./AI/Result/P_curve.png)
+ > ![Alt-текст](./AI/Result/PR_curve.png)
+ > ![Alt-текст](./AI/Result/R_curve.png)
+ > ![Alt-текст](./AI/Result/val_batch0_labels.png)
+ > ![Alt-текст](./AI/Result/val_batch0_pred.png)
 
 
 
