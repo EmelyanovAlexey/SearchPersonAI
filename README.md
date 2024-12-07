@@ -27,8 +27,8 @@
  > ![Alt-текст](./AI/Result/val_1/P_curve.png)
  > ![Alt-текст](./AI/Result/val_1/PR_curve.png)
  > ![Alt-текст](./AI/Result/val_1/R_curve.png)
- > ![Alt-текст](./AI/Result/val_1/val_batch0_labels.png)
- > ![Alt-текст](./AI/Result/val_1/val_batch0_pred.png)
+ > ![Alt-текст](./AI/Result/val_1/val_batch0_labels.jpg)
+ > ![Alt-текст](./AI/Result/val_1/val_batch0_pred.jpg)
 
 
 
