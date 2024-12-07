@@ -20,14 +20,15 @@
 
 ### Текущие резульаты
  - 06.12.2024
- > ![Alt-текст](./AI/Result/confusion_matrix_normalized.png)
- > ![Alt-текст](./AI/Result/confusion_matrix.png)
- > ![Alt-текст](./AI/Result/F1_curve.png)
- > ![Alt-текст](./AI/Result/P_curve.png)
- > ![Alt-текст](./AI/Result/PR_curve.png)
- > ![Alt-текст](./AI/Result/R_curve.png)
- > ![Alt-текст](./AI/Result/val_batch0_labels.png)
- > ![Alt-текст](./AI/Result/val_batch0_pred.png)
+ > ![Alt-текст](./AI/imgResult/результат_1.png)
+ > ![Alt-текст](./AI/Result/val_1/confusion_matrix_normalized.png)
+ > ![Alt-текст](./AI/Result/val_1/confusion_matrix.png)
+ > ![Alt-текст](./AI/Result/val_1/F1_curve.png)
+ > ![Alt-текст](./AI/Result/val_1/P_curve.png)
+ > ![Alt-текст](./AI/Result/val_1/PR_curve.png)
+ > ![Alt-текст](./AI/Result/val_1/R_curve.png)
+ > ![Alt-текст](./AI/Result/val_1/val_batch0_labels.png)
+ > ![Alt-текст](./AI/Result/val_1/val_batch0_pred.png)
 
 
 
