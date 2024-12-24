@@ -13,10 +13,13 @@ class ImageLabelViewer:
 
     def __init__(self, path, display_size=(1280, 880)):
         self.images_folder = os.path.join(path, "images")
-        self.labels_folder = os.path.join(path, "label")
+        self.labels_folder = os.path.join(path, "labels")
         
-        self.images_files = sorted(os.listdir(self.images_folder))
-        self.labels_files = sorted(os.listdir(self.labels_folder))
+        # self.images_files = sorted(os.listdir(self.images_folder))
+        # self.labels_files = sorted(os.listdir(self.labels_folder))
+
+        self.images_files = os.listdir(self.images_folder)
+        self.labels_files = os.listdir(self.labels_folder)
         
         if len(self.images_files) != len(self.labels_files):
             raise ValueError("Количество файлов в папках не совпадает!")
@@ -30,7 +33,7 @@ class ImageLabelViewer:
         with open(label_file, 'r') as f:
             for line in f:
                 parts = line.strip().split()
-                class_id = int(parts[0])
+                # class_id = int(parts[0])
                 x_center, y_center, box_width, box_height = map(float, parts[1:])
 
                 # Переводим центр и размеры в абсолютные координаты
@@ -57,12 +60,12 @@ class ImageLabelViewer:
 
     def _next_image(self):
         # Переход к следующему изображению
-        self.current_index = (self.current_index + 1) % len(self.images_files)
+        self.current_index = (self.current_index + 20) % len(self.images_files)
         self._show_image_with_boxes()
     
     def _prev_image(self):
         # Переход к предыдущему изображению
-        self.current_index = (self.current_index - 1) % len(self.images_files)
+        self.current_index = (self.current_index - 10) % len(self.images_files)
         self._show_image_with_boxes()
 
     def run_viewer(self):
