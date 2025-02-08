@@ -2,7 +2,7 @@ task: detect
 mode: train
 model: runs\detect\train\weights\best.pt
 data: ./DataSet/SplitData/dataset.yaml
-epochs: 200
+epochs: 210
 time: null
 patience: 30
 batch: 18
