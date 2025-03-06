@@ -9,7 +9,7 @@ def rename_on_order_in_folder(path, nweName = "img_"):
         - nweName - имя для переименования
     '''
     images_folder = f"{path}images"
-    labels_folder = f"{path}label"
+    labels_folder = f"{path}labels"
 
     images_files = sorted(os.listdir(images_folder))
     labels_files = sorted(os.listdir(labels_folder))

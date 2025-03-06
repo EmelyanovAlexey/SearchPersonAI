@@ -1,10 +1,10 @@
 task: detect
 mode: train
-model: yolov8n.pt
-data: ./DataSet/MyData/dataset.yaml
-epochs: 100
+model: rtdetr-l.pt
+data: ./DataSet/SplitDataAll/dataset.yaml
+epochs: 50
 time: null
-patience: 100
+patience: 30
 batch: 16
 imgsz: 640
 save: true
@@ -20,7 +20,7 @@ optimizer: auto
 verbose: true
 seed: 0
 deterministic: true
-single_cls: false
+single_cls: true
 rect: false
 cos_lr: false
 close_mosaic: 10
@@ -38,8 +38,8 @@ split: val
 save_json: false
 save_hybrid: false
 conf: null
-iou: 0.7
-max_det: 300
+iou: 0.4
+max_det: 30
 half: false
 dnn: false
 plots: true
@@ -47,7 +47,7 @@ source: null
 vid_stride: 1
 stream_buffer: false
 visualize: false
-augment: false
+augment: true
 agnostic_nms: false
 classes: null
 retina_masks: false
@@ -68,7 +68,7 @@ int8: false
 dynamic: false
 simplify: true
 opset: null
-workspace: 4
+workspace: null
 nms: false
 lr0: 0.01
 lrf: 0.01
@@ -82,7 +82,6 @@ cls: 0.5
 dfl: 1.5
 pose: 12.0
 kobj: 1.0
-label_smoothing: 0.0
 nbs: 64
 hsv_h: 0.015
 hsv_s: 0.7
@@ -97,7 +96,7 @@ fliplr: 0.5
 bgr: 0.0
 mosaic: 1.0
 mixup: 0.0
-copy_paste: 0.0
+copy_paste: 0.5
 copy_paste_mode: flip
 auto_augment: randaugment
 erasing: 0.4
