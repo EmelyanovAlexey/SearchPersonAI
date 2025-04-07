@@ -21,8 +21,8 @@ class ImageLabelViewer:
         self.images_files = os.listdir(self.images_folder)
         self.labels_files = os.listdir(self.labels_folder)
         
-        if len(self.images_files) != len(self.labels_files):
-            raise ValueError("Количество файлов в папках не совпадает!")
+        # if len(self.images_files) != len(self.labels_files):
+        #     raise ValueError("Количество файлов в папках не совпадает!")
         
         self.current_index = 0
         self.display_size = display_size
