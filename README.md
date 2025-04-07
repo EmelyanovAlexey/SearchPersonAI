@@ -19,7 +19,7 @@
 ---
 
 ### Текущие резульаты
- - 06.12.2024
+ - 27.03.2025
  > ![Alt-текст](./AI/imgResult/результат_1.png)
  > ![Alt-текст](./AI/Result/yolo8s_300_split_aug_scale/val/confusion_matrix_normalized.png)
  > ![Alt-текст](./AI/Result/yolo8s_300_split_aug_scale/val/confusion_matrix.png)
